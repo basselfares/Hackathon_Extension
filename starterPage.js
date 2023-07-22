@@ -1,7 +1,11 @@
-document.getElementById("myButton").addEventListener("click", myFunction);
+document.getElementById("myButton1").addEventListener("click", myFunction);
+document.getElementById("myButton2").addEventListener("click", myFunction);
+document.getElementById("myButton3").addEventListener("click", myFunction);
+document.getElementById("myButton4").addEventListener("click", myFunction);
 
-let test;
+
 function myFunction() {
     window.location.href = "index.html";
-    test = 
 }
+let test = 'asd'
+// export { myFunction }

@@ -58,5 +58,22 @@ html {
     top: 120px;
     margin: 5px auto;
     height: 8px;
+    margin-left: 0px;
+    width: 50%;
+}
+
+#resetGame {
+    position: relative;
+    top: 120px;
+    margin: 5px auto;
+    height: 8px;
+    margin-left: 100px;
     /* width: 50%; */
+}
+
+.categories {
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgba(72, 178, 190, 0.952);
 }
