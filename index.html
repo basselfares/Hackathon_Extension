@@ -4,12 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Color Changer</title>
-    <script src='main.js' defer></script>
+    <title>Trivia Game</title>
+    <!-- <style>
+        button {
+            height: 100px;
+            width: 100px;
+            outline: blueviolet;
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+    </style> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>Hello World</div>
+    <div id="question"></div>
+    <script src='main.js' defer></script>
+
+    <div id="trueTest">
+        <button id="trueButton">TRUE</button>
+        <!-- <div style="width: 100px; float: left;"></div> -->
+    </div>
+    <div id="falseTest">
+        <button id="falseButton">FALSE</button>
+        <!-- <div style="width: 100px; float: right;"></div> -->
+    </div>
+
+    <div id="score"></div>
+    <div id="streak"></div>
 </body>
 
 </html>
