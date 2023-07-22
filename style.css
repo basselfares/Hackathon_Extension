@@ -52,3 +52,11 @@ html {
     height: 15px;
     width: 50%;
 }
+
+#reset {
+    position: relative;
+    top: 120px;
+    margin: 5px auto;
+    height: 8px;
+    /* width: 50%; */
+}
